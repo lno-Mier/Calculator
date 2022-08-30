@@ -25,20 +25,20 @@ function Calculator() {
 let plus = document.getElementById('plus')
 plus.onclick = function() {
 	opp = '+'
-	alert(Calculator()[0])
+	Calculator()
 }
 let minus = document.getElementById('minus')
 minus.onclick = function() {
 	opp = '-'
-	alert(Calculator()[0])
+	Calculator()
 }
 let multiply = document.getElementById('multiply')
 multiply.onclick = function() {
 	opp = '*'
-	alert(Calculator()[0])
+	Calculator()
 }
 let divine = document.getElementById('divine')
 divine.onclick = function() {
 	opp = '/'
-	alert(Calculator()[0])
+	Calculator()
 }
